@@ -1,1 +1,1 @@
-Simple calculator for begginers in coding
+Simple calculator for beginners in coding
