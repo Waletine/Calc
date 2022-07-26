@@ -1,0 +1,36 @@
+section {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(75, 70, 70, 0.892);
+    border: 1px solid #000;
+    justify-content: center;
+    align-items:center;
+    font-weight: bolder;
+}
+.number-block {
+    width: 200px;
+    height: 250px;
+    font-weight: bolder;
+}
+.operator-block {
+    width: 200px;
+    height: 150px;
+}
+.text-block {
+    width: 200px;
+    height: 75px;
+}
+button {
+    width: 50px;
+    height: 50px;
+    margin: 5px;;
+    border: 1px solid black;
+    border-radius: 15px;
+    box-shadow: 10px 5px 5px rgb(23, 22, 22);
+}
+input {
+    width: 175px;
+    height: 50px;
+    border: 1px solid black;
+    box-shadow: inset 10px 5px 5px rgb(23, 22, 22);
+}
