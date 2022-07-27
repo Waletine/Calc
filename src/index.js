@@ -14,7 +14,7 @@ Array.from(operators).forEach((operator) => {
   operator.addEventListener('click', () => {
     const str = inputText.value[inputText.value.length - 1];
 
-    if (!Number.isNaN(+str)) {
+    if (!Number.isNaN(Number(str))) {
       inputText.value += operator.innerHTML;
     }
   });
