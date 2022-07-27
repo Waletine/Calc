@@ -12,7 +12,11 @@ Array.from(buttons).forEach((val) => {
 
 Array.from(operators).forEach((operator) => {
   operator.addEventListener('click', () => {
-    inputText.value += operator.innerHTML;
+    const str = inputText.value[inputText.value.length - 1];
+
+    if (!Number.isNaN(+str)) {
+      inputText.value += operator.innerHTML;
+    }
   });
 });
 
